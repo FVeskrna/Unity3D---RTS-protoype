@@ -1,0 +1,3181 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Building
+    - BuildingManager
+    - CombineMeshes
+    - FreeFlyCamera
+    - MapGeneration
+    - MeshCombiner
+    - RandomizeSliders
+    - UpdateTextFromSlider
+    NavMeshComponents.dll:
+    - UnityEngine.AI.NavMeshSurface
+    RVCommonGameLibrary.dll:
+    - RVModules.RVCommonGameLibrary.Pooling.PoolableGameObject
+    RVHonorAI.dll:
+    - RVHonorAI.CharacterAnimation
+    - RVHonorAI.CharacterGuiCanvas
+    - RVHonorAI.Content.AI.DataProviders.CurrentAttackDamageTimeProvider
+    - RVHonorAI.Content.AI.DataProviders.CurrentAttackDurationProvider
+    - RVHonorAI.Content.AI.DataProviders.CurrentAttackEngageRangeProvider
+    - RVHonorAI.Content.AI.DataProviders.CurrentAttackPreferredRangeProvider
+    - RVHonorAI.Content.AI.DataProviders.DangerPositionProvider
+    - RVHonorAI.Content.AI.DataProviders.DetectionRangeProvider
+    - RVHonorAI.Content.AI.DataProviders.TargetLastSeenPositionProvider
+    - RVHonorAI.Content.AI.DataProviders.TargetPositionProvider
+    - RVHonorAI.Content.AI.Scorers.CanSeeTarget
+    - RVHonorAI.Content.AI.Scorers.CharacterState
+    - RVHonorAI.Content.AI.Scorers.Courage
+    - RVHonorAI.Content.AI.Scorers.CurrentTargetTargetsMe
+    - RVHonorAI.Content.AI.Scorers.Danger
+    - RVHonorAI.Content.AI.Scorers.HasRangedWeapon
+    - RVHonorAI.Content.AI.Scorers.HaveAttack
+    - RVHonorAI.Content.AI.Scorers.IsCurrentTarget
+    - RVHonorAI.Content.AI.Scorers.IsTargetInAttackAngle
+    - RVHonorAI.Content.AI.Scorers.IsTargetInEngageRange
+    - RVHonorAI.Content.AI.Scorers.KnowsAboutTargets
+    - RVHonorAI.Content.AI.Scorers.SeeAnyTargets
+    - RVHonorAI.Content.AI.Scorers.TargetDanger
+    - RVHonorAI.Content.AI.Scorers.TargetVisible
+    - RVHonorAI.Content.AI.Scorers.TargetsHealthCurveParams
+    - RVHonorAI.Content.AI.Tasks.AimTowardTarget
+    - RVHonorAI.Content.AI.Tasks.AttackJob
+    - RVHonorAI.Content.AI.Tasks.CalculateDangerPosition
+    - RVHonorAI.Content.AI.Tasks.CheckVisibleObjects
+    - RVHonorAI.Content.AI.Tasks.FleeJob
+    - RVHonorAI.Content.AI.Tasks.MoveToTarget
+    - RVHonorAI.Content.AI.Tasks.SelectAttack
+    - RVHonorAI.Content.AI.Tasks.SelectBestTarget
+    - RVHonorAI.Content.AI.Tasks.SetCharacterSpeed
+    - RVHonorAI.Content.AI.Tasks.SetCharacterState
+    - RVHonorAI.Content.AI.Tasks.SetMovementSpeed
+    - RVHonorAI.Content.AI.Tasks.StopMoving
+    - RVHonorAI.Content.AI.Tasks.UpdateTargetList
+    - RVHonorAI.HonorAIManager
+    - RVHonorAI.Systems.AiSystems
+    - RVHonorAI.Systems.AttackSelectionSystem
+    - RVHonorAI.Systems.DamageSystem
+    - RVHonorAI.Systems.MeleeAttackSystem
+    - RVHonorAI.Systems.RelationshipSystem
+    RVSmartAI.dll:
+    - RVModules.RVSmartAI.Ai
+    - RVModules.RVSmartAI.AiGraph
+    - RVModules.RVSmartAI.AiVariables
+    - RVModules.RVSmartAI.Content.AI.DataProviders.DefaultBoolProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.DefaultCurveProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.DefaultFloatProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.DestinationProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.MoveTargetPositionProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.MyPositionProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.VariableBoolProvider
+    - RVModules.RVSmartAI.Content.AI.DataProviders.VariableFloatProvider
+    - RVModules.RVSmartAI.Content.AI.Scorers.AtDestination
+    - RVModules.RVSmartAI.Content.AI.Scorers.DistanceBetweenTwoPositions
+    - RVModules.RVSmartAI.Content.AI.Scorers.DistanceToPosition
+    - RVModules.RVSmartAI.Content.AI.Scorers.DistanceToPositionCurve
+    - RVModules.RVSmartAI.Content.AI.Scorers.DistanceToRange
+    - RVModules.RVSmartAI.Content.AI.Scorers.IsCloserOrFurtherThan
+    - RVModules.RVSmartAI.Content.AI.Scorers.IsCloserOrFurtherThanParams
+    - RVModules.RVSmartAI.Content.AI.Scorers.IsMovingAiScorer
+    - RVModules.RVSmartAI.Content.AI.Scorers.MoveTargetIsNullScorer
+    - RVModules.RVSmartAI.Content.AI.Scorers.RandomChanceForScore
+    - RVModules.RVSmartAI.Content.AI.Scorers.RandomScore
+    - RVModules.RVSmartAI.Content.AI.Scorers.RandomScoreVector3
+    - RVModules.RVSmartAI.Content.AI.Tasks.AiScanSurrounding
+    - RVModules.RVSmartAI.Content.AI.Tasks.BlockGraph
+    - RVModules.RVSmartAI.Content.AI.Tasks.FinishAiJob
+    - RVModules.RVSmartAI.Content.AI.Tasks.GoToNextWaypoint
+    - RVModules.RVSmartAI.Content.AI.Tasks.MoveToPosition
+    - RVModules.RVSmartAI.Content.AI.Tasks.ScanAndMoveToBestPosition
+    - RVModules.RVSmartAI.Content.AI.Tasks.SetVariableFloat
+    - RVModules.RVSmartAI.Content.Scanners.PhysxEnvironmentScanner
+    - RVModules.RVSmartAI.Content.Scanners.PhysxMovementScanner
+    - RVModules.RVSmartAI.GraphElements.FixedAiScorer
+    - RVModules.RVSmartAI.GraphElements.Stages.HighestUtilityWinsStage
+    - RVModules.RVSmartAI.GraphElements.Utilities.AllOrNothingAiUtility
+    - RVModules.RVSmartAI.GraphElements.Utilities.FixedScoreAiUtility
+    - RVModules.RVSmartAI.GraphElements.Utilities.SumAiUtility
+    - RVModules.RVSmartAI.Nodes.ConditionNode
+    - RVModules.RVSmartAI.Nodes.GraphNode
+    - RVModules.RVSmartAI.Nodes.HighestUtilityWinsStageNode
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.ForwardRendererData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.XRSystemData
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1706}
+    - Class: 114
+      Script: {instanceID: 1708}
+    - Class: 114
+      Script: {instanceID: 1710}
+    - Class: 114
+      Script: {instanceID: 1712}
+    - Class: 114
+      Script: {instanceID: 1716}
+    - Class: 114
+      Script: {instanceID: 1718}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 1724}
+    - Class: 114
+      Script: {instanceID: 1726}
+    - Class: 114
+      Script: {instanceID: 1728}
+    - Class: 114
+      Script: {instanceID: 1736}
+    - Class: 114
+      Script: {instanceID: 1790}
+    - Class: 114
+      Script: {instanceID: 1794}
+    - Class: 114
+      Script: {instanceID: 2114}
+    - Class: 114
+      Script: {instanceID: 2320}
+    - Class: 114
+      Script: {instanceID: 2334}
+    - Class: 114
+      Script: {instanceID: 2406}
+    - Class: 114
+      Script: {instanceID: 2444}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2578}
+    - Class: 114
+      Script: {instanceID: 2644}
+    - Class: 114
+      Script: {instanceID: 2696}
+    - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
+      Script: {instanceID: 2760}
+    - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
+      Script: {instanceID: 2810}
+    - Class: 114
+      Script: {instanceID: 2894}
+    - Class: 114
+      Script: {instanceID: 2930}
+    - Class: 114
+      Script: {instanceID: 3236}
+    - Class: 114
+      Script: {instanceID: 3518}
+    - Class: 114
+      Script: {instanceID: 3592}
+    - Class: 114
+      Script: {instanceID: 3606}
+    - Class: 114
+      Script: {instanceID: 3674}
+    - Class: 114
+      Script: {instanceID: 3732}
+    - Class: 114
+      Script: {instanceID: 3818}
+    - Class: 114
+      Script: {instanceID: 3842}
+    - Class: 114
+      Script: {instanceID: 4084}
+    - Class: 114
+      Script: {instanceID: 4174}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4212}
+    - Class: 114
+      Script: {instanceID: 4254}
+    - Class: 114
+      Script: {instanceID: 4302}
+    - Class: 114
+      Script: {instanceID: 4360}
+    - Class: 114
+      Script: {instanceID: 4454}
+    - Class: 114
+      Script: {instanceID: 4534}
+    - Class: 114
+      Script: {instanceID: 4568}
+    - Class: 114
+      Script: {instanceID: 4582}
+    - Class: 114
+      Script: {instanceID: 4634}
+    - Class: 114
+      Script: {instanceID: 4684}
+    - Class: 114
+      Script: {instanceID: 4712}
+    - Class: 114
+      Script: {instanceID: 4736}
+    - Class: 114
+      Script: {instanceID: 4782}
+    - Class: 114
+      Script: {instanceID: 4828}
+    - Class: 114
+      Script: {instanceID: 4968}
+    - Class: 114
+      Script: {instanceID: 5018}
+    - Class: 114
+      Script: {instanceID: 5172}
+    - Class: 114
+      Script: {instanceID: 5188}
+    - Class: 114
+      Script: {instanceID: 5274}
+    - Class: 114
+      Script: {instanceID: 5466}
+    - Class: 114
+      Script: {instanceID: 5606}
+    - Class: 114
+      Script: {instanceID: 5620}
+    - Class: 114
+      Script: {instanceID: 5700}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5842}
+    - Class: 114
+      Script: {instanceID: 5846}
+    - Class: 114
+      Script: {instanceID: 6086}
+    - Class: 114
+      Script: {instanceID: 6102}
+    - Class: 114
+      Script: {instanceID: 6438}
+    - Class: 114
+      Script: {instanceID: 6588}
+    - Class: 114
+      Script: {instanceID: 6794}
+    - Class: 114
+      Script: {instanceID: 6808}
+    - Class: 114
+      Script: {instanceID: 6886}
+    - Class: 114
+      Script: {instanceID: 6894}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 6972}
+    - Class: 114
+      Script: {instanceID: 7060}
+    - Class: 114
+      Script: {instanceID: 7076}
+    - Class: 114
+      Script: {instanceID: 7092}
+    - Class: 114
+      Script: {instanceID: 7158}
+    - Class: 114
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 7184}
+    - Class: 114
+      Script: {instanceID: 7190}
+    - Class: 114
+      Script: {instanceID: 7226}
+    - Class: 114
+      Script: {instanceID: 7544}
+    - Class: 114
+      Script: {instanceID: 7586}
+    - Class: 114
+      Script: {instanceID: 7690}
+    - Class: 114
+      Script: {instanceID: 7700}
+    - Class: 114
+      Script: {instanceID: 7756}
+    - Class: 114
+      Script: {instanceID: 7866}
+    - Class: 114
+      Script: {instanceID: 7944}
+    - Class: 114
+      Script: {instanceID: 7954}
+    - Class: 114
+      Script: {instanceID: 7968}
+    - Class: 114
+      Script: {instanceID: 7982}
+    - Class: 114
+      Script: {instanceID: 8038}
+    - Class: 114
+      Script: {instanceID: 8058}
+    - Class: 114
+      Script: {instanceID: 8062}
+    - Class: 114
+      Script: {instanceID: 8082}
+    - Class: 114
+      Script: {instanceID: 8088}
+    - Class: 114
+      Script: {instanceID: 8246}
+    - Class: 114
+      Script: {instanceID: 8254}
+    - Class: 114
+      Script: {instanceID: 8306}
+    - Class: 114
+      Script: {instanceID: 8308}
+    - Class: 114
+      Script: {instanceID: 8368}
+    - Class: 114
+      Script: {instanceID: 8480}
+    - Class: 114
+      Script: {instanceID: 8494}
+    - Class: 114
+      Script: {instanceID: 8630}
+    - Class: 114
+      Script: {instanceID: 8666}
+    - Class: 114
+      Script: {instanceID: 8708}
+    - Class: 114
+      Script: {instanceID: 8832}
+    - Class: 114
+      Script: {instanceID: 8984}
+    - Class: 114
+      Script: {instanceID: 9006}
+    - Class: 114
+      Script: {instanceID: 9052}
+    - Class: 114
+      Script: {instanceID: 9076}
+    - Class: 114
+      Script: {instanceID: 9232}
+    - Class: 114
+      Script: {instanceID: 9318}
+    - Class: 114
+      Script: {instanceID: 9332}
+    - Class: 114
+      Script: {instanceID: 9406}
+    - Class: 114
+      Script: {instanceID: 9480}
+    - Class: 114
+      Script: {instanceID: 9690}
+    - Class: 114
+      Script: {instanceID: 9722}
+    - Class: 114
+      Script: {instanceID: 9760}
+    - Class: 114
+      Script: {instanceID: 9800}
+    - Class: 114
+      Script: {instanceID: 9960}
+    - Class: 114
+      Script: {instanceID: 9998}
+    - Class: 114
+      Script: {instanceID: 10010}
+    - Class: 114
+      Script: {instanceID: 10020}
+    - Class: 114
+      Script: {instanceID: 10040}
+    - Class: 114
+      Script: {instanceID: 10122}
+    - Class: 114
+      Script: {instanceID: 10330}
+    - Class: 114
+      Script: {instanceID: 10426}
+    - Class: 114
+      Script: {instanceID: 10564}
+    - Class: 114
+      Script: {instanceID: 10602}
+    - Class: 114
+      Script: {instanceID: 10620}
+    - Class: 114
+      Script: {instanceID: 10772}
+    - Class: 114
+      Script: {instanceID: 10788}
+    - Class: 114
+      Script: {instanceID: 10802}
+    - Class: 114
+      Script: {instanceID: 10816}
+    - Class: 114
+      Script: {instanceID: 10840}
+    - Class: 114
+      Script: {instanceID: 10948}
+    - Class: 114
+      Script: {instanceID: 11054}
+    - Class: 114
+      Script: {instanceID: 11056}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f69dfc6409fbbd89d3689368e99688a8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 2cbd45304f2fead2ad3f96da4a136619
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: GoToNextWaypoint
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: StopMoving
+  - hash:
+      serializedVersion: 2
+      Hash: ca0b8ad3987cd33b3209a508b6e1562e
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 37bedb1f6e8e91f3b2afa939def96574
+    assemblyName: RVLoadBalancer.dll
+    namespaceName: RVModules.RVLoadBalancer
+    className: LoadBalancerSingleton
+  - hash:
+      serializedVersion: 2
+      Hash: 7915052f87b2a6840c9cbd560cc15726
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: KnowsAboutObject
+  - hash:
+      serializedVersion: 2
+      Hash: 10b35075e5c266d78e87cb1f1a6d415c
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: TargetCourage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 584ba6fc4471cddbb89df99682d0986e
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Utilities
+    className: DisableRigidbodyOnSleep
+  - hash:
+      serializedVersion: 2
+      Hash: 7aac0b898f5aa960e7a740fd0da5b82e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: ac8534f0a76384c6bc3fcbe6dfc54dcc
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: CollectionsActions
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: f73e170e51f5a6fb15ee73f8eddf5cd1
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Audio
+    className: SoundConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 1f78fbe6f3d1724b5ff3794306145ac0
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities.Prototyping
+    className: TerrainDataAssigner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1b51cf9a2852899dd3794eff0c5e9261
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.GraphElements.Utilities
+    className: FixedScoreAiUtility
+  - hash:
+      serializedVersion: 2
+      Hash: c5bfd0f6f4664318b8b9f50d88408421
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content
+    className: Obstacle
+  - hash:
+      serializedVersion: 2
+      Hash: d9dd5c3f63e3f607563652c073dda1de
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: PositionHeight
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 29d2cb73df3119bcf87c2e31c1471348
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: EngageRange
+  - hash:
+      serializedVersion: 2
+      Hash: 9f0d2156cb2876cc856eb040bfe23e76
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8b8b18ce5ce466450710494b38db41e5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: 3374849ae1adc2e65d74faa693ac48a5
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Examples
+    className: SetTransformAtMouseRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: 510cf26010be04b18de1a7862d71c443
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: ScanWalkablePositions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities.Prototyping
+    className: DisableOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 9939cfec6087b976289d04232aff41b4
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: FleeJob
+  - hash:
+      serializedVersion: 2
+      Hash: 88be47a7cf8e167879f6bac7fb23b2ad
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DefaultBoolProvider
+  - hash:
+      serializedVersion: 2
+      Hash: f2504b94d16c69e3a8262b0224438af1
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: CharacterState
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7ab5552a34401fea9c560916584875
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: HonorAIManager
+  - hash:
+      serializedVersion: 2
+      Hash: bdef60a736e7a04ece1412c2269154e6
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: ExampleAiJob
+  - hash:
+      serializedVersion: 2
+      Hash: 6da05449502c54a7bf3cc65b493806ee
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 5393620cdf550b0319b13d2d2b8dcc74
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Rendering
+    className: LodHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 586b53ed9889de37bf5f06948112bd4a
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: DistanceBetweenTwoPositions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Systems
+    className: MeleeAttackSystem
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1b7b9a006bd52faab4e4f458fbf9ad96
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableStringProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c0fd8d2cac2625bf4cee72c8db9a66d0
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: IsCurrentTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 8303ca024f4c7c2428d942e48de7ea01
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: CheckVisibleObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 3303971c7d91102f8a31270b3632d23b
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: TargetsHealthCurveParams
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: UpdateTargetListSimple
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: TargetProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 76631193492fb6b4d182734378bcc1d2
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: DebugLogTask
+  - hash:
+      serializedVersion: 2
+      Hash: e364a3574d336c7e04578a4c2bcad263
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: UnityObjectPoolManager
+  - hash:
+      serializedVersion: 2
+      Hash: 95e6797232b7d5831c9feb55a8582905
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: fc47f0b80c1f7de50e327c3a5199de65
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: CalculateDangerPosition
+  - hash:
+      serializedVersion: 2
+      Hash: a9061e398cff073c0d3488734bdf78cf
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: TransformVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: c0fd8d2cac2625bf4cee72c8db9a66d0
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_SimpleProximityToMoveTargetAiScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: 841f439a20b4a381d5a0c5ec9e36deda
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 51b05e403ce1da1805851f42af02f4bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 4c50d9a01b7fe251655fa433378a60ee
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers.Params
+    className: CompareNumberParams
+  - hash:
+      serializedVersion: 2
+      Hash: 748809c4235fc9d7a2373a08b50390e5
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Combat
+    className: ShootingWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: 2ecd1f9c8d4c740dc8fbcba84ce5e1ce
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: DataLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 31995eb8416877c9afd92b5d1b50df0d
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: XRSystemData
+  - hash:
+      serializedVersion: 2
+      Hash: 130e568f0bda7d9a921189d4d2c31430
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers.Params
+    className: ScoreByNumberParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2f4dcc91773eb41c9568fb7f2236a974
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: UnityTime
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a09a97574da1ee251c253108bc8f85e0
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: DistanceBetweenTargets
+  - hash:
+      serializedVersion: 2
+      Hash: 1cec5c788e7c807f485db0585fcc9afe
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: ObsoleteProximityToMeAiScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: f7b138083d0a0218ac6acbbb940de3d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LayerLab.FantasyRPG
+    className: PanelFantasyRPG
+  - hash:
+      serializedVersion: 2
+      Hash: 3ae80cc20d05271859c1424ef7a10cb3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableLayerMaskProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 511ee02d94ffc509a2d1224bc5a74e49
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: BusyScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 858c227f2c2de3de12500656b8fed96d
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: InterpolateTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 8e9c8cf7c8155e30171733f15c7691e4
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Tasks
+    className: SetInt
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 24e9bd966752143c88d4926eb721010d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_IsCloserOrFurtherToMoveTargetAiScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CombineMeshes
+  - hash:
+      serializedVersion: 2
+      Hash: 69b765e255aab1fbc096b6f68debbf66
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: Obsolete_MoveToBestPosNearMe
+  - hash:
+      serializedVersion: 2
+      Hash: e60b7651624327211265b955761561b3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.AI
+    className: Obsolete_SimpleDistanceToPosition
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 34746f5ad4a8189141ddf65a40069ea1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 420d582091ad373f0cf0abba7dc94aa5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MapGeneration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 511ee02d94ffc509a2d1224bc5a74e49
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: Courage
+  - hash:
+      serializedVersion: 2
+      Hash: 0531617f37e2fc0ddd0f332942678a94
+    assemblyName: xNode.dll
+    namespaceName: XNode
+    className: NodeGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 036208f0ac3dd8bb7476bc0704c7a5fc
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Network
+    className: SetupNetworkedPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: efc2bcac16fde00da1ebe7e60eefbba2
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: UpdateTargetList
+  - hash:
+      serializedVersion: 2
+      Hash: 483dbff3deed5adbcb4067c0b899ea50
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI
+    className: TargetInfoAiDebugger
+  - hash:
+      serializedVersion: 2
+      Hash: bdef60a736e7a04ece1412c2269154e6
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: AttackJob
+  - hash:
+      serializedVersion: 2
+      Hash: 8794122afe121a51b2baee70824454a7
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities.FilesManagement
+    className: FoldersCopyConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e2a3490847ecc18815cf80e634a06b2
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: BlockGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 042d3d29db75d4c29762bda62ca8a2c8
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: SoundsPreset
+  - hash:
+      serializedVersion: 2
+      Hash: 2cfa0393b5123bd14aa7b550fd8912e4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 7a7c40776861142d641c700fd1339e3b
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SetMovementSpeed
+  - hash:
+      serializedVersion: 2
+      Hash: 280d6752ed9c93bf2bff25609af7ff37
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: TransformTranslate
+  - hash:
+      serializedVersion: 2
+      Hash: 48636f52abb0f2e2280ae90db48a86e7
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_IsCloserOrFurtherToMeAiScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e7bfa641760a572d4835a16d2c48927c
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Examples
+    className: AddSpawnedCharsToCalcAvgPos
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ce66de8a2daf1f400e6c7f3516d2753e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: d121cf00dc9e3122a155eab9ae920cc9
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: IsTargetInEngageRange
+  - hash:
+      serializedVersion: 2
+      Hash: 04d33ec4be0c0c1b51d294810f948670
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Obsolete
+    className: Obsolete_DistToPositionVsRangeScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d74fc2f80f446a931936d2686bde033f
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Animation
+    className: HumanoidIkHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9b6689eb219eaed6d96afebfd0587e
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: AtDestination
+  - hash:
+      serializedVersion: 2
+      Hash: d8a98523230052956bc3d8fda58d1c3b
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableTransformPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 7244ecadccec8f7212644504baf75d67
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: FloatProviderScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fde6274cd379eda2c0e44f1a65b02c02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Building
+  - hash:
+      serializedVersion: 2
+      Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: FlowMachine
+  - hash:
+      serializedVersion: 2
+      Hash: cec62010b8049dd5807c782a49ef9bfe
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: SetPositionToAverage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9b6689eb219eaed6d96afebfd0587e
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: MoveTargetIsNullScorer
+  - hash:
+      serializedVersion: 2
+      Hash: aadb33b0748ee25c95d6cf646ae5826b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e2c0d9eed5860b69441c4466b070ee7f
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: CharacterAi
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities.Prototyping
+    className: DontDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Systems
+    className: AttackSelectionSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 1cec5c788e7c807f485db0585fcc9afe
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Obsolete
+    className: Obsolete_ProximityToTargetScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 626c34f34b732dd2a12f4deb3fe5b26d
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: RecursiveChangeFont
+  - hash:
+      serializedVersion: 2
+      Hash: 37bedb1f6e8e91f3b2afa939def96574
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Input
+    className: InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8e038e3a82f77ee7d6c056759f65743d
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: TargetPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6ebffd6a73ccdf732024ecae71e6fd04
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: KnowsAboutTargets
+  - hash:
+      serializedVersion: 2
+      Hash: 488d91f4859e3a3601789b810540a24f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 9dc794d84a7a90f5126b6b1c23ce3a28
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: TransformRotate
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e957628547e2e1c3e46c00b6556165d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeFlyCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 483dbff3deed5adbcb4067c0b899ea50
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content
+    className: Vector3AiDebugger
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 29d2cb73df3119bcf87c2e31c1471348
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: CurrentAttackEngageRangeProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 29d2cb73df3119bcf87c2e31c1471348
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: DetectionRangeProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6c14a016ac44748e26c62115e10424ff
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers
+    className: ScoreByNumberCurve
+  - hash:
+      serializedVersion: 2
+      Hash: bdd434cf10b0b20dedadba3fd9fefbd0
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: CharacterGuiCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: b73df7874ab115773354f257cc9bf5df
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Examples
+    className: LookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 6cfcd45199dbf39ea6fbe017759cf023
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: IsCloserOrFurtherThan
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6f29b049d6b6b18bee23aaf2fe273e02
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e038e3a82f77ee7d6c056759f65743d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: MyPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fbb0936ed5da9449f066902364be0ca9
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI
+    className: AiVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content
+    className: AiAgent
+  - hash:
+      serializedVersion: 2
+      Hash: 432b6545dc185f28b8931396c2cb2887
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Combat
+    className: Attack
+  - hash:
+      serializedVersion: 2
+      Hash: 1879d55c70fee149258595ae4676957e
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers
+    className: CompareBool
+  - hash:
+      serializedVersion: 2
+      Hash: 2893af7f63e301e3588026c97af114e5
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Combat
+    className: Weapon
+  - hash:
+      serializedVersion: 2
+      Hash: 6fec8fdbd79b5ea2da4cf65628ac23d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BuildingManager
+  - hash:
+      serializedVersion: 2
+      Hash: 03c7d89f76edb8295052343d417351c0
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SetCharacterState
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac327467393cb6c8045a2fd90ff67e2
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 597cfde2e60b842b3acbd2961ff0631b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7194890384644a2cf268ccf239443485
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers.Params
+    className: CompareBoolParams
+  - hash:
+      serializedVersion: 2
+      Hash: 67a99c72bf51722a004979b57db87178
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 65ce1f94cb10360311f5042daf8111ce
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.GraphElements.Stages
+    className: FirstUtilityWinsStage
+  - hash:
+      serializedVersion: 2
+      Hash: 91549af3a087a4fb3aec9c566176cac3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: IsAiJobRunning
+  - hash:
+      serializedVersion: 2
+      Hash: 37bedb1f6e8e91f3b2afa939def96574
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Network
+    className: NetworkManagerProvider
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: cd1e91f5afed259a1512bbf18dc12bd7
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: 
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1db0a631a8c6c4c547c4838f562eead3
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 763b678ed239d14dab6ebf2a85db8bb3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: BoolScorer
+  - hash:
+      serializedVersion: 2
+      Hash: bdb2aa563ff34cd96dfe8e46b3382012
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: ab19145815d3cf3765c379e7c95c66de
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Tasks
+    className: CallMethod
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fef78364646dad200fb5365ba2b6495b
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Nodes
+    className: FirstUtilityWinsStageNode
+  - hash:
+      serializedVersion: 2
+      Hash: 30bd8d796dccab6bb5618c79a11f4659
+    assemblyName: xNode.dll
+    namespaceName: XNode
+    className: MonoNodeGraph
+  - hash:
+      serializedVersion: 2
+      Hash: e1c1420847f5b28fe41e2f7e79c31651
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities.Prototyping
+    className: Destroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 954f868a8f7159a5e72a336ee564b4e8
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: SetVariableFloat
+  - hash:
+      serializedVersion: 2
+      Hash: c96bee5b70f65031537faea0a37fa4ab
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.Scanners
+    className: PhysxEnvironmentScanner
+  - hash:
+      serializedVersion: 2
+      Hash: 91c66736e3507bbd3c15a9b02abea21b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: cff84d37404eee4dad4d538f8e3dc82c
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: e709540eeab44e0a072da4c8ff694992
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.UI.Extensions.FantasyRPG
+    className: UIParticleSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DataProviderBase
+  - hash:
+      serializedVersion: 2
+      Hash: fb101801f483067c384bd6b8d0e82e7b
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Animation
+    className: AnimationsPreset
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: MoveToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: MonoBehaviourEvents
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 005c97a2962e4909a6bf5aac2e278b9d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: MoveToPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1cec5c788e7c807f485db0585fcc9afe
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: ObsoleteProximityToMoveTargetScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: 08705cef837f5d18a4c86b19b1ccf347
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 7d1a3e12579b7bd0f94909057ffba8d0
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fbacf92a18bd99a2ac6807fd5815d651
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: TargetVisible
+  - hash:
+      serializedVersion: 2
+      Hash: 23b81d05a0ad0499613fc3e1a4a0501b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineEditorResources
+  - hash:
+      serializedVersion: 2
+      Hash: c30555747a97bcd3646b3abd76c5f4db
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: IsCloserOrFurtherThanParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVLoadBalancer.dll
+    namespaceName: RVModules.RVLoadBalancer.Tasks
+    className: DummyMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f8bb2e32ef1e4b152a1ade94a98f3c86
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Obsolete
+    className: Obsolete_DistanceToPositionDividedByRange
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Animation
+    className: NavMeshAgentRootMotionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a2a53e7bff0bdcb196d7c7c13355feeb
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_ProximityToMoveTargetScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 22d2a94c38cb27fd7ad08133af20dccd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomizeSliders
+  - hash:
+      serializedVersion: 2
+      Hash: 85ac68f3cd1d0cf851856991bf562775
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: DebugBreakTask
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Effects
+    className: ParticleEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4d51d5ccf37d2089bdfe827617b784ff
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: fe5963d06dac51f8eea000aac0383748
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: RandomChanceForScore
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 259120c0dc6953b8bfcdb6f63f5f800b
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Pooling
+    className: PoolManager
+  - hash:
+      serializedVersion: 2
+      Hash: 08a5462f0544c0f50b39e16005a35b98
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableGameObjectPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: f6f1cec1bfa40f2501c6e261319cb705
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: SetFramerate
+  - hash:
+      serializedVersion: 2
+      Hash: c8c4bd5da006ef782b97058dcc6b7307
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers
+    className: CompareNumber
+  - hash:
+      serializedVersion: 2
+      Hash: c73b38d1734fde2c84da7bd282f19e54
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: 04885fa4c2e3f34bb92b18186472b2c4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: 7da08272f224748598e54412fc54e910
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers
+    className: ScoreByNumber
+  - hash:
+      serializedVersion: 2
+      Hash: 0e60655a65105e2189bae4c8749909ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LayerLab.FantasyRPG
+    className: PanelControlFantasyRPG
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 29d2cb73df3119bcf87c2e31c1471348
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: CurrentAttackDamageTimeProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 7dbf450932234158be58ca2027563dcb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 5164495c3b93da2a52f62951c9b64459
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: AIWander
+  - hash:
+      serializedVersion: 2
+      Hash: 8e038e3a82f77ee7d6c056759f65743d
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: DangerPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: a4f2450235c0693c22f97ba827e25254
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: LookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 0c9920fb850aff7b5ec756815b7a6fc1
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: bab46cbbdd483d5fce3affdda8107dd3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI
+    className: AiGraph
+  - hash:
+      serializedVersion: 2
+      Hash: cad5ffbb381f21d79d04b9a1f2707d80
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.Scanners
+    className: PhysxMovementScanner
+  - hash:
+      serializedVersion: 2
+      Hash: a32498475057cab21f0772fb9e058b99
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: FinishAiJob
+  - hash:
+      serializedVersion: 2
+      Hash: 50115a9447169afd3aba67b9e6e0e772
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Obsolete
+    className: Obsolete_TargetProximity
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: Obsolete_MoveToMoveTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 29d2cb73df3119bcf87c2e31c1471348
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: CurrentAttackDurationProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 2a82e83084c22ac5b22d6408bd97caae
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: AimTowardTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: cb14ccd32b767e997ba03247e69d1e9a
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: TargetDangerCurve
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: df819f0bc77c8d047eca1df91bbaa90d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 54d8f12780f7f6df9b0603e66c9a5b3b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 36484c136fee393f86585536332447d5
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Rendering
+    className: MeshSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 63bdc2cf3273aa9bf650350f19d2af61
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SetTargetAsMoveTarget
+  - hash:
+      serializedVersion: 2
+      Hash: a64b8ff703a69f3352c424e9d0bc1c49
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 323bac3970457bec7e936a1dc0187c66
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: PlayAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ac4988ed97d27108357d0ee1aabe6a3e
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: SeeAnyTargets
+  - hash:
+      serializedVersion: 2
+      Hash: 6b3057497eb6f0e52612476af702bf8c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 511ee02d94ffc509a2d1224bc5a74e49
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.GraphElements
+    className: FixedAiScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 511ee02d94ffc509a2d1224bc5a74e49
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: Danger
+  - hash:
+      serializedVersion: 2
+      Hash: 09e4da66d7a15d149554fccc9cecb33b
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: SetVariableAnimationCurve
+  - hash:
+      serializedVersion: 2
+      Hash: 7982bd8e5baccf2d2f864a898ce0ea35
+    assemblyName: RVLoadBalancer.dll
+    namespaceName: RVModules.RVLoadBalancer
+    className: LoadBalancerManagerDebug
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: b498814da05f96e96f5e66e1bc51bd2b
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: CharacterSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: fb9dc8a0ca4c37994de3d03e29bada59
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: RandomScore
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 50d7778b5d5d296c9b9956f8b8443a07
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: Obsolete_MoveToPointNearestMoveTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 5eac6edc5dee2b7d344186322275787b
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: Character
+  - hash:
+      serializedVersion: 2
+      Hash: 8e038e3a82f77ee7d6c056759f65743d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DestinationProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71678205ac483d693e8629c49788c72c
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableBoolProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: ac0a47a0a1f875cd4a17c978225e407b
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DefaultFloatProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 137f03b5ca80189c6c434b75e424f537
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: HasRangedWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: ef2be4a46a0968e244bf166bd4cc3350
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableFloatProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 36112b0a16753cab0931521e4de67ef6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: 84368bf313be893f6c5c1791f6119ea5
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: HealthPercent
+  - hash:
+      serializedVersion: 2
+      Hash: 2e3d2bba7aab502a7df612b1a0ec3489
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: TargetTest
+  - hash:
+      serializedVersion: 2
+      Hash: bb6b9a25e695d7981ce2d853a697a828
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 5b7b554e085717c4160a84cd0d6be5e3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: DistanceToRange
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0e93a7fd6c1c4123b56d5115fe615d1c
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableObjectProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6a336f64adae000d37e1817b2df7d0c3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DefaultCurveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: b7d58df3c6d92c60e3611c0a808aa0dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 89229a620f85ef21de336ab85a13d351
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: e0a808dcb97fea255f883b6d1111ee3b
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers.Params
+    className: ScoreByNumberCurveParams
+  - hash:
+      serializedVersion: 2
+      Hash: 6ebffd6a73ccdf732024ecae71e6fd04
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: HaveAttack
+  - hash:
+      serializedVersion: 2
+      Hash: 5501f59d60467d876305e51437655fca
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: DistanceToPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f79e983672d079ff24eee15484fb74b8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: dbeab19c836bd50c0a0e371615445b64
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 02ed38cb1e4c195f91d3feb53feb529f
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Tasks
+    className: SetBool
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 1aa55bc733a2340b1e242a9093a17497
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: GameObjectViewHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 1faa9935de48c0e500bbd56db4407c67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshCombiner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: eb836712f27d15f106375775f44f37c9
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: ScanAndMoveToBestPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 8e038e3a82f77ee7d6c056759f65743d
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: TargetLastSeenPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6a44fe68e384dd3d944d9be6d053da0a
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: AIWanderArea
+  - hash:
+      serializedVersion: 2
+      Hash: 27f8f4b1b6296dfabf5f367ec39c955d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers.Params
+    className: CompareStringParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6914637fbab75e705aec2d1b9b5eb3c7
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: PositionHeightCurve
+  - hash:
+      serializedVersion: 2
+      Hash: 37bedb1f6e8e91f3b2afa939def96574
+    assemblyName: RVLoadBalancer.dll
+    namespaceName: RVModules.RVLoadBalancer
+    className: LoadBalancerFixedSingleton
+  - hash:
+      serializedVersion: 2
+      Hash: f1f962f80121ba202e87ae297908abc6
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Utilities
+    className: DestroyGameObjectAfter
+  - hash:
+      serializedVersion: 2
+      Hash: c71ab946c4f96c7a9449b25173f286f1
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SelectAttack
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: cedc0c8a86d5d5a028139ff9dfe8a0e3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Nodes
+    className: GraphNode
+  - hash:
+      serializedVersion: 2
+      Hash: 2547056abfca1ff1893996e4a7b3be90
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SetCharacterSpeed
+  - hash:
+      serializedVersion: 2
+      Hash: 43f67de7f068e20bcae68f4d2b14fdf3
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Audio
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: f21656d74fe9ef36ca4817aa68580c8b
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: Trigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8f2008cc289aa438456cee73f8939bcc
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Rendering
+    className: LodSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 29d2cb73df3119bcf87c2e31c1471348
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: CurrentAttackPreferredRangeProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c2452f2df14bce4b934af2cbc10df113
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities.Prototyping
+    className: SnapToGround
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c0fd8d2cac2625bf4cee72c8db9a66d0
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: CurrentTargetTargetsMe
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 1932fa0e74673103b947090526f42fee
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Scorers
+    className: CompareString
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 81e982f2c5b68cf6f36e9b6e995514c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleGameObjectEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 9f7123b494aedc8d7b761448e4ce3b02
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: MonoBehaviourWithEvents
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b286282d9b807a89d504c9ca726e4140
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Contexts
+    className: AiAgentGenericContext
+  - hash:
+      serializedVersion: 2
+      Hash: 375e6fd13cad2359dbb4cb0be8abbde0
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Nodes
+    className: ConditionNode
+  - hash:
+      serializedVersion: 2
+      Hash: 84368bf313be893f6c5c1791f6119ea5
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Obsolete
+    className: Obsolete_DistanceToTargetVsWeaponRangeScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 6ea6617d172a104f9018f13457983113
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Gameplay
+    className: TimedUnityEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 65ce1f94cb10360311f5042daf8111ce
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.GraphElements.Stages
+    className: HighestUtilityWinsStage
+  - hash:
+      serializedVersion: 2
+      Hash: a4369ae8ef82452d02220df358c4aa21
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Audio
+    className: AudioPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 278bc44186bfc5e5ab495ba92776b6d3
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Systems
+    className: AiSystems
+  - hash:
+      serializedVersion: 2
+      Hash: 442a419954b08392d1e1084a783112a6
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: AiScanSurrounding
+  - hash:
+      serializedVersion: 2
+      Hash: 6182f51ec3ff86b2adcc769dec45a236
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: SetVariableBool
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c9e95eff76061ac38ee407e380d12b5
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Utilities
+    className: DisableRigidbodiesOnSleep
+  - hash:
+      serializedVersion: 2
+      Hash: 4251d26a8978f1323038b23fdd759956
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableCurveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 21721f12ec05661eece598173c7c2135
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: BusyHigherThan
+  - hash:
+      serializedVersion: 2
+      Hash: 48982140c520cbca517d0f96b60a0ba9
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: fa1eb66a4563a7cae08d58a0a1928ec5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: c5248ca5c0e4ded9b20b12dbce988af7
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: CharacterAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fef78364646dad200fb5365ba2b6495b
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Nodes
+    className: HighestUtilityWinsStageNode
+  - hash:
+      serializedVersion: 2
+      Hash: e2ce0077cce16467d5484c59da7cc099
+    assemblyName: RVUtilities.dll
+    namespaceName: RVModules.RVUtilities
+    className: TerrainTools
+  - hash:
+      serializedVersion: 2
+      Hash: 89b050e53ee620de8ea3ebbc424800a0
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: MoveToBestPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Systems
+    className: RelationshipSystem
+  - hash:
+      serializedVersion: 2
+      Hash: ddafb04f6fcf42c0fc20698e66d14bcb
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI
+    className: Ai
+  - hash:
+      serializedVersion: 2
+      Hash: fa81ef6665d5fd7cd21a7b6e91f46a67
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Pooling
+    className: PoolableGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 813de6b5172a41a2983985266a624fad
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Animation
+    className: CharacterMovementAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 5a58b611fe092302b525df2c9fbef92f
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: IsTargetInAttackAngle
+  - hash:
+      serializedVersion: 2
+      Hash: 0ed30300783c6197ee9d34e0230358f5
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DefaultStringProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d7f509e5889c2fa61731633eefb260ce
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: AiGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0863edc022fc32c06a2db76b7233e6b3
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DefaultLayerMaskProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 48636f52abb0f2e2280ae90db48a86e7
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_IsCloserOrFurtherToMoveTargetAiScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: a2a53e7bff0bdcb196d7c7c13355feeb
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_ProximityToDestinationScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 7ae95c26211058b188430575067dd2ba
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content
+    className: UnityNavMeshMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 134520f170644886bce038a4038a42c9
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4ca781cce678e12ed442518770dbc
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SetMoveTargetToNull
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: df478431d86d2486ab756fc16f003f94
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.GraphElements.Utilities
+    className: SumAiUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e6f2ab1c8e682ffca6b1f7a108de3c71
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.DataProviders
+    className: DetectionRangeMulProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: c0fd8d2cac2625bf4cee72c8db9a66d0
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_SimpleProximityToMeAiScorerParams
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 98b4199acc0439052e65011a21147ebd
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6ebffd6a73ccdf732024ecae71e6fd04
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: CanSeeTarget
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: b2e5701e29d9682422d69cf6e8d2d1e1
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: AiZone
+  - hash:
+      serializedVersion: 2
+      Hash: 8e038e3a82f77ee7d6c056759f65743d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: MoveTargetPositionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 9c6e8958dbbb58f7f4e49f3c89aa52e4
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Systems
+    className: DamageSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 8c328a0ffa03c1bcb9332bb39f4f8453
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 49ae32e61ab6baae8e4daf745e7015d6
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableVector3ListProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 24e9bd966752143c88d4926eb721010d
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: Obsolete_IsCloserOrFurtherDestinationToMoveTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 69b765e255aab1fbc096b6f68debbf66
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Tasks
+    className: Obsolete_MoveToBestPosNearFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 64f28b468bd6c21d2fdd89f40af60217
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpdateTextFromSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: e2a45aa29c967939455c311ecac19a3a
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: IsMovingAiScorer
+  - hash:
+      serializedVersion: 2
+      Hash: c0fd8d2cac2625bf4cee72c8db9a66d0
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: TargetDanger
+  - hash:
+      serializedVersion: 2
+      Hash: a945a161022dcf0a6a3df963c88c7888
+    assemblyName: RVCommonGameLibrary.dll
+    namespaceName: RVModules.RVCommonGameLibrary.Network
+    className: SetupNetworkedObject
+  - hash:
+      serializedVersion: 2
+      Hash: b162a19ad2f9be358c69bd4c39542d82
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: VariableVector3Provider
+  - hash:
+      serializedVersion: 2
+      Hash: 26b61c0aef7a8f3e197e9f98785bbbbe
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.DataProviders
+    className: DefaultVector3Provider
+  - hash:
+      serializedVersion: 2
+      Hash: 3b2ea737b8710e0df56b25b074ade962
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Tasks
+    className: SelectBestTarget
+  - hash:
+      serializedVersion: 2
+      Hash: d3ec0736cf5ab265bd24a936d402d264
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.ReflectionBased.Tasks
+    className: SetString
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 234ceb4e7646ebab57c416686c77c167
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: RandomScoreVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 6ebffd6a73ccdf732024ecae71e6fd04
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: HasTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c6884acaa2d55adfffa21c5a78f84a35
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.GraphElements.Utilities
+    className: AllOrNothingAiUtility
+  - hash:
+      serializedVersion: 2
+      Hash: a09a97574da1ee251c253108bc8f85e0
+    assemblyName: RVSmartAI.dll
+    namespaceName: RVModules.RVSmartAI.Content.AI.Scorers
+    className: DistanceToPositionCurve
+  - hash:
+      serializedVersion: 2
+      Hash: 511ee02d94ffc509a2d1224bc5a74e49
+    assemblyName: RVHonorAI.dll
+    namespaceName: RVHonorAI.Content.AI.Scorers
+    className: HealthScorer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/Unity Projects 2022/Ecosystem/Builds/0.1/Ecosystem Simulation.exe

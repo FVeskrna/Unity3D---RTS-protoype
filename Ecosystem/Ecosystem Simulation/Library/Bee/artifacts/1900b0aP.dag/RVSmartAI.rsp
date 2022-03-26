@@ -1,0 +1,469 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aP.dag/RVSmartAI.dll"
+-refout:"Library/Bee/artifacts/1900b0aP.dag/RVSmartAI.ref.dll"
+-define:UNITY_2021_1_19
+-define:UNITY_2021_1
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:USE_SEARCH_ENGINE_API
+-define:USE_QUICK_SEARCH_MODULE
+-define:SCENE_TEMPLATE_MODULE
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_MONO_BDWGC
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:PLATFORM_STANDALONE
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+-r:"D:/Unity Projects 2022/Ecosystem/Ecosystem Simulation/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/RVLoadBalancer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/RVUtilities.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/xNode.ref.dll"
+"Assets/RVModules/RVSmartAI/Nodes/ConditionNode.cs"
+"Assets/RVModules/RVSmartAI/Nodes/FirstUtilityWinsStageNode.cs"
+"Assets/RVModules/RVSmartAI/Nodes/GraphNode.cs"
+"Assets/RVModules/RVSmartAI/Nodes/HighestUtilityWinsStageNode.cs"
+"Assets/RVModules/RVSmartAI/Nodes/SmartAiNode.cs"
+"Assets/RVModules/RVSmartAI/Nodes/StageNode.cs"
+"Assets/RVModules/RVSmartAI/Source/Ai.cs"
+"Assets/RVModules/RVSmartAI/Source/AiGraph.cs"
+"Assets/RVModules/RVSmartAI/Source/AiGraphConfig.cs"
+"Assets/RVModules/RVSmartAI/Source/AiVariables.cs"
+"Assets/RVModules/RVSmartAI/Source/ComponentContextProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/AiAgentGenericContext.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/IEnvironmentScannerProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/IMovementProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/IMovementScannerProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/IMoveTargetProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/INearbyObjectsProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Contexts/IWaypointsProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/AnimationCurve/CurveProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/AnimationCurve/DefaultCurveProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/AnimationCurve/VariableCurveProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Bool/BoolProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Bool/DefaultBoolProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Bool/VariableBoolProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/DataProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/DataProviderBase.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Float/DefaultFloatProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Float/FloatProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Float/VariableFloatProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/LayerMask/DefaultLayerMaskProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/LayerMask/LayerMaskProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/LayerMask/VariableLayerMaskProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Object/ObjectDataProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Object/VariableObjectProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/OptionalDataProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/String/DefaultStringProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/String/StringProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/String/VariableStringProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/DefaultVector3Provider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/DestinationProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/MoveTargetPositionProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/MyPositionProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/VariableGameObjectPositionProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/VariableTransformPositionProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/VariableVector3ListProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/VariableVector3Provider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/Vector3ListProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/DataProviders/Vector3/Vector3Provider.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/ObsoleteProximityToMeAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/ObsoleteProximityToMoveTargetScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_IsCloserOrFurtherDestinationToMoveTarget.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_IsCloserOrFurtherThanAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_IsCloserOrFurtherThanAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_IsCloserOrFurtherToMeAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_IsCloserOrFurtherToMoveTargetAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_IsCloserOrFurtherToMoveTargetAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_MoveToBestPosNearFollowTarget.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_MoveToBestPosNearMe.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_MoveToMoveTarget.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_MoveToPointNearestMoveTarget.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_ProximityAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_ProximityToDestinationScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_ProximityToMeAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_ProximityToMoveTargetScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_SimpleDistanceToPosition.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_SimpleProximityAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_SimpleProximityToMeAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_SimpleProximityToMeAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_SimpleProximityToMoveTargetAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Obsolete/Obsolete_SimpleProximityToMoveTargetAiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/CompareBool.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/CompareNumber.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/CompareString.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/GetProperty.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/Params/CompareBoolParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/Params/CompareNumberParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/Params/CompareStringParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/Params/GetPropertyParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/Params/ScoreByNumberCurveParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/Params/ScoreByNumberParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/ScoreByNumber.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Scorers/ScoreByNumberCurve.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Tasks/CallMethod.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Tasks/SetBool.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Tasks/SetInt.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Tasks/SetProperty.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/ReflectionBased/Tasks/SetString.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/Abstract/AiAgentScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/Abstract/AiAgentScorerCurve.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/Abstract/AiScorerCurve.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/AtDestination.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/BoolScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/DistanceBetweenTwoPositions.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/FloatProviderScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/IsAiJobRunning.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/IsCloserOrFurtherThan.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/IsMovingAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/KnowsAboutObject.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/MoveTargetIsNullScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/RandomChanceForScore.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/RandomScore.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/Abstract/AiAgentScorerCurveParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/Abstract/AiAgentScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/Abstract/AiScorerCurveParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/DistanceToPosition.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/DistanceToPositionCurve.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/DistanceToRange.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/IsCloserOrFurtherThanParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/PositionHeight.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/PositionHeightCurve.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Scorers/ScorersParams/RandomScoreVector3.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/Abstract/AiAgentTask.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/AiJob.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/AiScanSurrounding.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/AutoGenerated/AiJobBase.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/BlockGraph.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/DebugBreakTask.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/DebugLogTask.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/Examples/AIWander.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/Examples/AIWanderArea.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/Examples/ExampleAiJob.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/FinishAiJob.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/GoToNextWaypoint.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/MoveToPosition.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/ScanWalkablePositions.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/SetVariableAnimationCurve.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/SetVariableBool.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/SetVariableFloat.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/TasksParams/Abstract/AiAgentTaskParams.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/TasksParams/MoveToBestPosition.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AI/Tasks/TasksParams/ScanAndMoveToBestPosition.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/AiAgent.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Enums.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/IMovement.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Obstacle.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Scanners/IEnvironmentScanner.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Scanners/IMovementScanner.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Scanners/IScannable.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Scanners/PhysxEnvironmentScanner.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Scanners/PhysxMovementScanner.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/UnityNavMeshMovement.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/Vector3AiDebugger.cs"
+"Assets/RVModules/RVSmartAI/Source/Content/VisualDebugger.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/AiGraphElement.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/AiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/AiScorerParams.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/AiTask.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/AiTaskParams.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/FixedAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/IAiGraphElement.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/IAiScorer.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/IAiTaskParams.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/ITaskWithScorers.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Stages/FirstUtilityWinsStage.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Stages/HighestUtilityWinsStage.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Stages/Stage.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Utilities/AiUtility.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Utilities/AllOrNothingAiUtility.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Utilities/FixedScoreAiUtility.cs"
+"Assets/RVModules/RVSmartAI/Source/GraphElements/Utilities/SumAiUtility.cs"
+"Assets/RVModules/RVSmartAI/Source/Helpers.cs"
+"Assets/RVModules/RVSmartAI/Source/IComponent.cs"
+"Assets/RVModules/RVSmartAI/Source/IContext.cs"
+"Assets/RVModules/RVSmartAI/Source/IContextProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/IConvertibleParam.cs"
+"Assets/RVModules/RVSmartAI/Source/IForceUpdate.cs"
+"Assets/RVModules/RVSmartAI/Source/IJobHandlerProvider.cs"
+"Assets/RVModules/RVSmartAI/Source/IObjectDetectionCallbacks.cs"
+"Assets/RVModules/RVSmartAI/Source/IUnityComponent.cs"
+"Assets/RVModules/RVSmartAI/Source/SmartAiExposeField.cs"
+"Assets/RVModules/RVSmartAI/Source/SmartAiHideInInspector.cs"
+"Assets/RVModules/RVSmartAI/Source/SmartAISettings.cs"
+"Assets/RVModules/RVSmartAI/Source/StaticMethods.cs"
+-langversion:8.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/utf8output
+/preferreduilang:en-US
